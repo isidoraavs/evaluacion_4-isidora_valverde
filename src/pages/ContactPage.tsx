@@ -1,4 +1,4 @@
-import {ContactForm} from "../components/ContactForm";export function ContactPage(){return (<section className="contact section-shell" id="contacto" aria-labelledby="contact-title">
+import {ContactForm} from "../components/ContactForm";export function ContactPage({showForm=true}:{showForm?:boolean}){return (<section className="contact section-shell" id="contacto" aria-labelledby="contact-title">
             <div className="section-kicker"><span>03</span><span>HABLEMOS</span></div>
             <div className="contact__content">
                 <div>
@@ -15,4 +15,4 @@ import {ContactForm} from "../components/ContactForm";export function ContactPag
                     <p className="contact__address">ivalverde2026@alu.uct.cl</p>
                 </div>
             </div>
-        <ContactForm/></section>);}
+        {showForm && <ContactForm/>}</section>);}
