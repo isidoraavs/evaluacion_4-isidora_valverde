@@ -1,4 +1,4 @@
-import {projects as projectsData} from "../data/portfolioData";import {ProjectCard} from "../components/ProjectCard";import {GitHubProjects} from "../components/GitHubProjects";export function ProjectsPage(){return (<section className="projects section-shell" id="proyectos" aria-labelledby="projects-title">
+import {projects as projectsData} from "../data/portfolioData";import {ProjectCard} from "../components/ProjectCard";import {GitHubProjects} from "../components/GitHubProjects";export function ProjectsPage({showApi=true}:{showApi?:boolean}){return (<section className="projects section-shell" id="proyectos" aria-labelledby="projects-title">
             <div className="section-kicker"><span>02</span><span>TRABAJO EN PROGRESO</span></div>
             <div className="projects__heading">
                 <div>
@@ -15,4 +15,4 @@ import {projects as projectsData} from "../data/portfolioData";import {ProjectCa
 
                 
             </div>
-        <GitHubProjects/></section>);}
+        {showApi && <GitHubProjects/>}</section>);}

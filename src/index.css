@@ -210,3 +210,7 @@ html[data-theme="dark"] .header,html[data-theme="dark"] .hero,html[data-theme="d
 html[data-theme="dark"] .header a,html[data-theme="dark"] .footer a{color:#fffaf0}
 html[data-theme="dark"] .profile :is(p,span),html[data-theme="dark"] .projects :is(p,span),html[data-theme="dark"] .contact :is(p,span){color:#c7e2e7}
 @media(max-width:520px){.header__inner{padding-block:12px;justify-content:center}.header__nav-list{gap:12px}.hero h1{font-size:clamp(2.6rem,13vw,4.4rem)}}
+/* Se conserva la marca IV. en ambos extremos. */
+.footer__footer-mark,.footer__mark,.footer .header__wordmark{color:var(--paper);font-size:1.25rem;font-weight:800;letter-spacing:-.09em;text-decoration:none}
+.footer .header__wordmark span{color:var(--acid)}
+@media(max-width:360px){.hero__art{min-width:0;width:100%}.header__inner{gap:8px}.profile__interest-list{grid-template-columns:1fr}.project-card__api-window{width:90%;padding:14px}}
