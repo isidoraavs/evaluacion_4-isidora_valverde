@@ -1,9 +1,16 @@
-import {ContactForm} from "../components/ContactForm";export function ContactPage({showForm=true}:{showForm?:boolean}){return (<section className="contact section-shell" id="contacto" aria-labelledby="contact-title">
+import { ContactForm } from "../components/ContactForm";
+import type { ContactPageProps, UiElement } from "../types/ui";
+
+export function ContactPage({ showForm = true, headingLevel = "h1" }: ContactPageProps): UiElement {
+    const Heading = headingLevel;
+
+    return (
+        <section className="contact section-shell" id="contacto" aria-labelledby="contact-title">
             <div className="section-kicker"><span>03</span><span>HABLEMOS</span></div>
             <div className="contact__content">
                 <div>
                     <p className="contact__overline">¿TIENES UNA IDEA O PROYECTO?</p>
-                    <h2 id="contact-title">Las buenas cosas<br />empiezan <span>conectando.</span></h2>
+                    <Heading className="contact__title" id="contact-title">Las buenas cosas<br />empiezan <span>conectando.</span></Heading>
                 </div>
                 <div className="contact__action">
                     <p>Estoy abierta a conversar sobre desarrollo, tecnología y aprendizaje.</p>
@@ -15,4 +22,7 @@ import {ContactForm} from "../components/ContactForm";export function ContactPag
                     <p className="contact__address">ivalverde2026@alu.uct.cl</p>
                 </div>
             </div>
-        {showForm && <ContactForm/>}</section>);}
+            {showForm && <ContactForm />}
+        </section>
+    );
+}
