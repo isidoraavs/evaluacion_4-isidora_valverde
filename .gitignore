@@ -4,3 +4,8 @@ dist/
 *.local
 chrome-captura-temporal/
 migration.py
+*.bundle
+coverage/
+.env
+.env.*
+!.env.example
