@@ -66,12 +66,15 @@ Las clases siguen BEM, con modificadores como `header__nav-link--active`. Los es
 ## Inventario, referencia e IA
 
 - [INVENTARIO.md](INVENTARIO.md): qué se conservó, cambió y añadió.
+- [Captura de la Evaluación 2](docs/captura-e2.png): portada original proporcionada por Isidora.
 - [Referencia original E2](docs/referencia-e2/index.html): copia sin modificar de HTML, CSS y fotografía para comparar el diseño. El proyecto E2 original permanece intacto.
 - [uso_ia.md](uso_ia.md): herramientas, prompts, asistencia recibida, cambios, verificaciones y conclusión técnica.
 - [Guía de defensa](docs/GUIA_DEFENSA.md): recorrido de componentes, props, rutas, estado, API y accesibilidad.
 - [Verificación](docs/VERIFICACION.md): resultados y límites de la revisión.
 
-**Pendiente visual:** guardar la captura real de la E2 como `docs/captura-e2.png`. La herramienta de navegador no pudo conectarse durante esta revisión; se incluyó la fuente original y no se fabricó una imagen. Tampoco se declara una puntuación de Lighthouse o una prueba visual móvil no ejecutada. La estudiante debe revisar la bitácora y ensayar su explicación personal.
+![Portada original del portafolio de la Evaluación 2](docs/captura-e2.png)
+
+La captura de la portada E2 fue proporcionada por Isidora e incorporada sin modificar. **Revisión visual pendiente:** la herramienta de navegador no pudo conectarse durante la revisión técnica; queda por comprobar el portafolio React en escritorio y móvil. No se declara una puntuación de Lighthouse ni una prueba visual no ejecutada. La estudiante debe revisar la bitácora y ensayar su explicación personal.
 
 ## Git y entrega
 
