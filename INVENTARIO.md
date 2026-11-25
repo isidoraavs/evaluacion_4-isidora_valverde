@@ -6,7 +6,7 @@ La referencia recuperada es `portafolio-main/portafolio-main`. Su README identif
 
 La fotografía original y `public/img/isidora-valverde.jpeg` de E4 tienen el mismo SHA-256. Las ilustraciones de las tarjetas proceden del CSS original. Las fuentes son Manrope y DM Mono, cargadas desde Google Fonts.
 
-Se incluye una [copia sin modificar de la referencia original](docs/referencia-e2/index.html), con su CSS y fotografía. Falta guardar una captura real como `docs/captura-e2.png`: el servicio de navegador no estuvo disponible durante la revisión. La E2 original se conserva para comparar el resultado.
+Se incluyen la [captura de la portada original proporcionada por Isidora](docs/captura-e2.png) y una [copia sin modificar de la referencia original](docs/referencia-e2/index.html), con su CSS y fotografía. La captura se incorporó sin modificaciones. La E2 original se conserva para comparar el resultado.
 
 ## Elementos conservados y adaptación
 
