@@ -12,7 +12,7 @@ npm run preview
 Abre la URL que indique Vite. La compilación genera dist/.
 
 ## Diseño original
-[Captura de la Evaluación 2](docs/captura-e2.png). Se conservan la fotografía, colores, fuentes, ilustraciones CSS, textos y tarjetas. La navegación por anclas pasa a rutas independientes. Se agrega tema global y formulario que prepara un correo, sin simular envío.
+[Captura de la Evaluación 2](docs/captura-e2.png). Se conservan la fotografía, colores, fuentes, ilustraciones CSS, textos y tarjetas. La página inicial conserva todas las secciones de la E2; el menú navega mediante rutas independientes. La API y el formulario adicional se muestran en sus respectivas rutas. Se agrega tema global y formulario que prepara un correo, sin simular envío.
 
 ## API
 GET https://api.github.com/users/isidoraavs/repos?sort=updated&per_page=6
@@ -23,7 +23,7 @@ El servicio comprueba response.ok, el hook usa AbortController y caché en memor
 / Inicio; /perfil Perfil; /proyectos Proyectos; /contacto Contacto; cualquier otra ruta muestra 404.
 
 ## Accesibilidad y pruebas
-HTML semántico, etiquetas asociadas mediante htmlFor, foco visible, aria-label, aria-hidden, aria-live, role=status y role=alert. Navegación con teclado y preferencia de movimiento reducido. Verificaciones pendientes: ejecutar build, comprobar estados en navegador y realizar Lighthouse; no se presentan resultados no medidos.
+HTML semántico, etiquetas asociadas mediante htmlFor, foco visible, aria-label, aria-hidden, aria-live, role=status y role=alert. Navegación con teclado y preferencia de movimiento reducido. Vite generó dist/ correctamente. Pendientes: verificación completa de tipos con tsc, estados en navegador, captura E2 y auditoría Lighthouse; no se presentan resultados no medidos.
 
 ## Git
 Trabajar en una rama por funcionalidad, registrar commits convencionales y abrir PR hacia main. Después de fusionar, ejecutar git switch main y git pull origin main.
