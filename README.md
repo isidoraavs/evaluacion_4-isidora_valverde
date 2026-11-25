@@ -74,7 +74,7 @@ Las clases siguen BEM, con modificadores como `header__nav-link--active`. Los es
 
 ![Portada original del portafolio de la Evaluación 2](docs/captura-e2.png)
 
-La captura de la portada E2 fue proporcionada por Isidora e incorporada sin modificar. **Revisión visual pendiente:** la herramienta de navegador no pudo conectarse durante la revisión técnica; queda por comprobar el portafolio React en escritorio y móvil. No se declara una puntuación de Lighthouse ni una prueba visual no ejecutada. La estudiante debe revisar la bitácora y ensayar su explicación personal.
+La captura de la portada E2 fue proporcionada por Isidora e incorporada sin modificar. En una comprobación posterior, la E4 abrió en Chrome: se revisaron las rutas, la consulta real con HTTP 200, el formulario, el tema y la vista 404. Inicio, Perfil y Contacto se comprobaron con un ancho de 320 píxeles sin desbordamiento horizontal. Se conservan capturas de [Inicio](docs/verificacion-e4-inicio.jpg), [Proyectos con la API](docs/verificacion-e4-proyectos.jpg) e [Inicio a 320 píxeles](docs/verificacion-e4-movil.jpg). Es una revisión básica, no una auditoría completa de accesibilidad; no se declara una puntuación Lighthouse. La estudiante debe revisar la bitácora y ensayar su explicación personal.
 
 ## Git y entrega
 
